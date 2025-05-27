@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "../globals.css";
 import Navbar from "@/components/navbar";
 import Container from "@/components/container";
-import { GradientBackground } from "@/components/gradient";
+
 
 import Footer from "@/components/footer";
 
@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <>
-      {/* <GradientBackground /> */}
+
       <Container>
         <Navbar />
       </Container>
