@@ -3,9 +3,9 @@ import "./globals.css";
 import { SessionProvider } from "next-auth/react";
 
 export const metadata: Metadata = {
-  title: "Admin | My Blog",
+  title: "Tecwaave",
   description:
-    "Stay informed with product updates, company news, and insights on how to sell smarter at your company.",
+    "monetizable e-commerce website",
 };
 export default function RootLayout({
   children,
