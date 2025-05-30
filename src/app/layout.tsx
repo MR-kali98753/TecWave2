@@ -19,6 +19,8 @@ export default function RootLayout({
           rel="stylesheet"
           href="https://api.fontshare.com/css?f%5B%5D=switzer@400,500,600,700&amp;display=swap"
         />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2713992428887274"
+          crossorigin="anonymous"></script>
       </head>
       <body className="antialiased overflow-x-hidden">
         <SessionProvider>{children}</SessionProvider>
