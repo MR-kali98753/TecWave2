@@ -17,7 +17,7 @@ const post = () => {
             title,
             slug,
             content,
-            authorId,
+            authorId: authorId,
         };
 
         try {
