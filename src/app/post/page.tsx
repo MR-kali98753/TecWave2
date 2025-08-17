@@ -37,9 +37,10 @@ const post = () => {
             const data = await response.json();
             console.log('Post created successfully:', data);
             
-        } catch (error: any) {
-            console.error('Error creating post:', error.message);
-            
+        } catch (error: unknown) {
+            if (error instanceof Error) {
+                console.error("error creating post", error.message);
+            } else console.error("Unexpected Error creating post :", error)            
         }
     };
 
