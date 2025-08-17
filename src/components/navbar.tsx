@@ -17,6 +17,7 @@ export const navLinks = [
   { href: "/", label: "Home" },
   { href: "/company", label: "Company" },
   { href: "/contact", label: "Contact" },
+  {href: "/post", label: "Post"}
 ];
 
 export const DesktopNav = () => {
