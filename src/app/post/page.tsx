@@ -11,7 +11,7 @@ const generateSlug = (title: string) => {
   
 
 const post = () => {
-    const handleCreatePost = async (title: string, content: string, authorId: string) => {
+    const handleCreatePost = async (title: string, content: string, authorId?: string) => {
         const slug = generateSlug(title);
         const postData = {
             title,

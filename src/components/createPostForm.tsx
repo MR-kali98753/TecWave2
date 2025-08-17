@@ -5,7 +5,7 @@ interface CreatePostFormProps {
     title: string, 
     content: string, 
     authorId?: string
-  ) => void;
+  ) => void | Promise<void>;
 }
 
 const CreatePostForm: React.FC<CreatePostFormProps> = ({ onCreatePost }) => {
